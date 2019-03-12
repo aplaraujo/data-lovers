@@ -40,7 +40,7 @@ function showAllCards() {
   })
 }
 
-function findsort() {
+function findSort() {
   let sortPokemons = sortMenu.value;
 
   if (sortPokemons === "az") {
@@ -85,6 +85,10 @@ function sortAZ() {
       </div>`
     srcResult.appendChild(newArticle);
   })  
+  let total = 151;
+  let newH = document.createElement("h1");
+  newH.innerHTML = `Resultado da Pesquisa: ${total} pokemons.`
+  resultInfo.appendChild(newH);
 }
 
 function sortZA() {
@@ -122,6 +126,10 @@ function sortZA() {
       </div>`
     srcResult.appendChild(newArticle);
   })  
+  let total = 151;
+  let newH = document.createElement("h1");
+  newH.innerHTML = `Resultado da Pesquisa: ${total} pokemons.`
+  resultInfo.appendChild(newH);
 }
 
 function filterFirstLetter() {
