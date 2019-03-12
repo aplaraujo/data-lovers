@@ -307,7 +307,7 @@ sortMenu.addEventListener("change", () => {
   weaknessesMenu.selectedIndex = "type";
   typeMenu.selectedIndex = "type";
   srcBar.value = "";
-  findsort()
+  findSort()
 });
 
 letterMenu.addEventListener("change", () => {
